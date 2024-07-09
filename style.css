@@ -1,0 +1,73 @@
+.profile-img{
+    border-radius: 30%;
+}
+
+.colntainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.colour-hero{
+    background-color: rgb(255, 248, 243);
+}
+
+.colour-nav{
+    background-color: rgb(247, 231, 220);
+    color: rgb(64, 93, 114);
+}
+
+body{
+    background-color: rgb(255, 248, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btn-color-pri{
+background-color: rgb(117, 134, 148);
+color: rgb(255, 248, 243);
+}
+.btn-color-pri:hover {
+    background-color: rgb(64, 93, 114); /* Hover background color */
+    color: rgb(255, 248, 243); /* Ensure text color remains visible */
+}
+.btn-2{
+border-color: rgb(247, 231, 220);
+color: rgb(117, 134, 148);
+}
+
+.btn-2:hover{
+    border:none;
+    color: rgb(64, 93, 114);
+    background-color:rgb(247, 231, 220);
+
+    }
+
+.contact-det-container{
+    text-align: left;
+
+    padding-bottom: 100px;
+    
+    
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        margin-top:20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-md-12 {
+        margin-top:20px;
+    }
+}
+#name{
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+  
